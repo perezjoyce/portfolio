@@ -1,0 +1,122 @@
+/* HERO */
+/* #home img.home-image {
+   position: absolute;
+   width: 50%;
+   top: 40vh;
+   left: 50vw
+}
+
+@media (min-width: 767.98px) {
+   #home img.home-image {
+      position: absolute;
+      width: 80%;
+      top: 55vh;
+      left: 50vw
+   }
+} */
+
+/* ABOUT ME */
+.stack {
+   width: 7.5vw;
+   height: 7.5vw;
+   position: relative;
+   z-index: 0;
+   margin: 20px 20px 20px;
+}
+
+.float-10s {
+   animation: float 10s ease-in infinite;
+}
+
+.float-6s {
+   animation: float 6s ease-in infinite;
+}
+
+@-webkit-keyframes float {
+   0% {
+      -webkit-transform: translatey(0px);
+      transform: translatey(0px);
+   }
+
+   50% {
+      -webkit-transform: translatey(-10px);
+      transform: translatey(-10px);
+   }
+
+   100% {
+      -webkit-transform: translatey(0px);
+      transform: translatey(0px);
+   }
+}
+
+@keyframes float {
+   0% {
+      transform: translatey(0px);
+   }
+
+   50% {
+      transform: translatey(-10px);
+   }
+
+   100% {
+      transform: translatey(0px);
+   }
+}
+
+
+/* PROJECTS */
+.project {
+   width: 100%;
+   margin-bottom: 30px;
+   background: rgba(255, 255, 255, 0.1);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.project-img {
+   width: 100%;
+   border-top-left-radius: calc(0.25rem - 1px);
+   border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.project-body {
+   padding: 30px
+}
+
+.project h2.title {
+   font-size: 26px;
+   font-weight: bolder;
+}
+
+.project .links {
+   font-size: 12px;
+   font-weight: 600;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+}
+
+
+/* REVIEWS */
+.review {
+   margin: 5px;
+   position: relative;
+   z-index: -1;
+   width: 100%;
+}
+
+.review .review-img {
+   width: 100%;
+   position: relative;
+}
+
+.review::after {
+   content: '';
+   position: absolute;
+   background: #000;
+   opacity: 0.35;
+   inset: 0;
+   z-index: 1;
+   width: 100%;
+}

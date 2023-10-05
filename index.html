@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Joyce Perez</title>
+
+		<!-- META DATA -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="description" content="full-stack developer portfolio of Joyce Perez">
+		<meta name="keywords" content="full-stack, developer, porfolio">
+		<meta name="author" content="Joyce Perez">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--FACEBOOK-->
+		<meta property="og:image" content="https://perezjoyce.github.io/portfolio/images/logo.png">
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1024">
+		<meta property="og:image:height" content="1024">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://perezjoyce.github.io/portfolio/" />
+		<meta property="og:title" content="Joyce Perez Portfolio" />
+		<meta property="og:description" content="I create web and mobile solutions that drive results." />
+
+		<!-- BOOTSTRAP -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"></script>
+
+		<!-- FONTS & ICONS -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/164e32610c.js" crossorigin="anonymous"></script>
+
+		<!-- IMPORTS -->
+		<!-- !TODO: Move used classes from style.css to style2.css; Maintain only 1 style -->
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style2.css">
+		<link type="text/css" rel="stylesheet" media="screen,projection" href="css/style.css">
+	</head>
+
+	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+		<!-- NAVBAR -->
+		<!-- !TODO: Improve menu icon -->
+		<!-- !BUG: MENU item is not automatically selected on scroll -->
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Joyce Perez</a>
+				<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbar-options" aria-controls="navbar-options" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbar-options">
+					<ul class="navbar-nav nav ml-auto mr-4">
+						<li class="nav-item"><a href="#home" class="nav-link"><span>Home</span></a></li>
+						<li class="nav-item"><a href="#about" class="nav-link"><span>About</span></a></li>
+						<li class="nav-item"><a href="#projects" class="nav-link"><span>Projects</span></a></li>
+						<li class="nav-item"><a href="#reviews" class="nav-link"><span>Reviews</span></a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+						<li class="nav-item d-block d-lg-none">
+							<a href="https://drive.google.com/file/d/1TRyQqpfNpfeL1RV2C9pRP6cBJcJ1xR95/view?usp=sharing"
+								target="_blank">
+								<span>View My Resume</span></a>
+						</li>
+					</ul>
+
+					<a href="https://drive.google.com/file/d/1TRyQqpfNpfeL1RV2C9pRP6cBJcJ1xR95/view?usp=sharing"
+						target="_blank" class="btn btn-primary py-3 px-3 d-none d-lg-block">View My Resume</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- HOME -->
+		<!-- !TODO: Add home-image -->
+		<section id="home">
+			<div class="home-container">
+				<!-- <img src="images/background-1.png" class="home-image"> -->
+
+				<div class="row home-text d-md-flex no-gutters align-items-end justify-content-end"
+					data-scrollax-parent="true">
+
+					<div class="one-forth d-flex align-items-center animate"
+						data-scrollax=" properties: { translateY: '70%' }">
+						<div class="text">
+							<h1 class="mb-4 mt-3">I create web &amp; mobile <span>solutions</span> that drive
+								<span>results</span>.
+							</h1>
+
+							<span class="d-none d-lg-inline">
+								<a href="#contact" class="btn btn-primary py-3 px-4 ">Let's Connect</a>
+							</span>
+
+							<span class="d-lg-none">
+								<a href="https://drive.google.com/file/d/1TRyQqpfNpfeL1RV2C9pRP6cBJcJ1xR95/view?usp=sharing"
+									target="_blank" class="btn btn-primary py-3 px-4 d-lg-none">View My Resume</a>
+							</span>
+
+							<a href="#projects" class="btn btn-white btn-outline-white py-3 px-4">
+								Browse My Work
+							</a>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<!-- ABOUT -->
+		<section class="section pb-0 mb-5 px-sm-3" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col d-none d-lg-block stack-tools">
+						<div class="d-flex align-content-stretch flex-wrap">
+							<div class="stack bg-img float-6s" style="background-image: url(images/stack/javascript.png);">
+							</div>
+							<div class="stack bg-img float-10s" style="background-image: url(images/stack/react.png);">
+							</div>
+							<div class="stack bg-img float-6s" style="background-image: url(images/stack/next.png);">
+							</div>
+							<div class="stack bg-img float-10s" style="background-image: url(images/stack/typescript.png);">
+							</div>
+							<div class="stack bg-img float-6s" style="background-image: url(images/stack/node-js.png);">
+							</div>
+							<div class="stack bg-img float-10s" style="background-image: url(images/stack/express.png);">
+							</div>
+							<div class="stack bg-img float-6s" style="background-image: url(images/stack/mongodb.png);">
+							</div>
+							<div class="stack bg-img float-10s" style="background-image: url(images/stack/graphql.png);">
+							</div>
+							<div class="stack bg-img float-6s" style="background-image: url(images/stack/dart.png);">
+							</div>
+							<div class="stack bg-img float-10s" style="background-image: url(images/stack/flutter.png);">
+							</div>
+							<div class="stack bg-img float-6s" style="background-image: url(images/stack/git.png);">
+							</div>
+						</div>
+					</div>
+
+					<div class="col heading-section animate">
+						<h1 class="big">Mabuhay!</h1>
+						<h2 class="mb-4">Hello there! 👋</h2>
+
+						<div class="about-intro">
+							<p> I'm <strong class="text-white">Joyce</strong>. I build
+								web and mobile applications using the following technologies:</p>
+
+							<ul>
+								<li><strong>JavaScript, React.js, Next.js</strong></li>
+								<li><strong>Node.js, Express.js, TypeScript, GraphQL, MongoDB</strong></li>
+								<li><strong>Flutter, React Native</strong></li>
+							</ul>
+
+							<p> I also excel in project management, curriculum design, and teaching.</p>
+
+							<p>
+								I'm actively seeking
+								projects that offer me the opportunity to foster my professional growth across
+								these domains.
+							</p>
+						</div>
+
+						<ul class="about-info mb-3">
+							<li class="d-flex"><span>Email:</span> <span>japerez.ph@gmail.com</span></li>
+							<li class="d-flex"><span>Phone: </span> <span>+63-977-345-3953</span></li>
+						</ul>
+
+						<div class="animate">
+							<a href="#projects" class="btn btn-primary py-3 px-4">
+								Explore Projects
+							</a>
+							<a href="#reviews" class="btn btn-white btn-outline-white py-3 px-4">
+								View Feedback
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROJECTS -->
+		<!-- !CHECK IF ALL LINKS WORK -->
+		<section class="section pb-0" id="projects">
+			<div class="container">
+				<div class="row justify-content-center pb-3">
+					<div class="col-md-7 heading-section text-center animate">
+						<h1 class="big big-2">Projects</h1>
+						<h2 class="mb-4">Projects</h2>
+						<p>Here is a list of websites, web apps, and mobile apps to which I contributed in various capacities,
+							including full-stack developer, project manager, and sometimes, both roles.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<!-- CHARTEASY WEB-->
+						<div class="project project-body animate">
+							<h2 class="title">ChartEasy Web</h2>
+
+							<div class="badges mb-2">
+								<span class="badge rounded-pill text-bg-warning">Next.js</span>
+								<span class="badge rounded-pill text-bg-warning">Node.js</span>
+								<span class="badge rounded-pill text-bg-warning">TypeScript</span>
+								<span class="badge rounded-pill text-bg-warning">Express.js</span>
+								<span class="badge rounded-pill text-bg-warning">GraphQL</span>
+								<span class="badge rounded-pill text-bg-warning">MongoDB</span>
+							</div>
+
+							<p class="description">
+								A proprietary electronic health record web app for managing, reviewing, and documenting patient
+								visits
+							</p>
+
+							<div class="links">
+								<a href="https://account.theoriamedical.com/login?clientKey=charteasy" target="_blank"
+									class="text-secondary">
+									<i class="fa-solid fa-square-arrow-up-right"></i>
+									View Project
+								</a>
+							</div>
+						</div>
+
+						<!-- CHARTEASY MOBILE -->
+						<div class="project animate">
+							<img src="images/projects/charteasy-mobile.png" class="project-img" alt="charteasy mobile">
+
+							<div class="project-body">
+								<h2 class="title">ChartEasy Mobile</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">Dart</span>
+									<span class="badge rounded-pill text-bg-warning">Flutter</span>
+									<span class="badge rounded-pill text-bg-warning">GraphQL</span>
+									<span class="badge rounded-pill text-bg-warning">Node.js</span>
+									<span class="badge rounded-pill text-bg-warning">TypeScript</span>
+									<span class="badge rounded-pill text-bg-warning">Express.js</span>
+									<span class="badge rounded-pill text-bg-warning">MongoDB</span>
+								</div>
+
+								<p class="description">
+									A proprietary electronic health record mobile app for rounding physicians and nurses
+								</p>
+
+								<div class="links">
+									<a href="https://apps.apple.com/us/app/charteasy/id1561706643" target="_blank"
+										class="text-secondary">
+										<i class="fa-brands fa-app-store-ios"></i>
+										App Store
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- THEORIA SPACES -->
+						<div class="project project-body animate">
+							<h2 class="title">Theoria Spaces</h2>
+
+							<div class="badges mb-2">
+								<span class="badge rounded-pill text-bg-warning">Next.js</span>
+								<span class="badge rounded-pill text-bg-warning">Node.js</span>
+								<span class="badge rounded-pill text-bg-warning">TypeScript</span>
+								<span class="badge rounded-pill text-bg-warning">Express.js</span>
+								<span class="badge rounded-pill text-bg-warning">GraphQL</span>
+								<span class="badge rounded-pill text-bg-warning">MongoDB</span>
+							</div>
+
+							<p class="description">
+								A CRM app for creating, sharing, and managing company documents at Theoria Medical
+							</p>
+
+							<div class="links">
+								<a href="https://account.theoriamedical.com/login?clientKey=spaces" class="text-secondary">
+									<i class="fa-solid fa-square-arrow-up-right"></i>
+									View Project
+								</a>
+							</div>
+						</div>
+
+						<!-- NUTRICOACH PRO -->
+						<div class="project project-body animate">
+							<h2 class="title">NutriCoach Pro</h2>
+
+							<div class="badges mb-2">
+								<span class="badge rounded-pill text-bg-warning">React.js</span>
+								<span class="badge rounded-pill text-bg-warning">Node.js</span>
+								<span class="badge rounded-pill text-bg-warning">TypeScript</span>
+								<span class="badge rounded-pill text-bg-warning">Express.js</span>
+								<span class="badge rounded-pill text-bg-warning">GraphQL</span>
+								<span class="badge rounded-pill text-bg-warning">MongoDB</span>
+							</div>
+
+							<p class="description">
+								A web app that remotely connects dietitians and nutrition coaches with patients
+							</p>
+
+							<div class="links">
+								<a href="https://play.google.com/store/apps/details?id=com.nutricoach.coach&hl=en_US"
+									target="_blank" class="text-secondary mr-4">
+									<i class="fa-brands fa-google-play"></i>
+									Google Play
+								</a>
+
+								<a href="https://coach.nutricoach.pro/auth/login" target="_blank" class="text-secondary">
+									<i class="fa-solid fa-square-arrow-up-right"></i>
+									View Project
+								</a>
+							</div>
+						</div>
+
+						<!-- NUTRICOACH CLIENT -->
+						<div class="project animate">
+							<img src="images/projects/nutricoach-client.png" class="project-img" alt="...">
+
+							<div class="project-body">
+								<h2 class="title">NutriCoach Client</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">React Native</span>
+									<span class="badge rounded-pill text-bg-warning">Node.js</span>
+									<span class="badge rounded-pill text-bg-warning">TypeScript</span>
+									<span class="badge rounded-pill text-bg-warning">Express.js</span>
+									<span class="badge rounded-pill text-bg-warning">GraphQL</span>
+									<span class="badge rounded-pill text-bg-warning">MongoDB</span>
+								</div>
+
+								<p class="description">
+									A mobile app that is exclusive for patients with invitations from a nutrition coach who's
+									using Nutricoach Pro
+								</p>
+
+								<div class="links">
+									<a href="https://play.google.com/store/apps/details?id=pro.nutricoach.client&hl=en_US"
+										target="_blank" class="text-secondary">
+										<i class="fa-brands fa-google-play"></i>
+										Google Play
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="project animate">
+							<img src="images/projects/ceedteck.png" class="project-img" alt="...">
+							<div class="project-body">
+								<h2 class="title">Ceedteck</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">Next.js</span>
+									<span class="badge rounded-pill text-bg-warning">UIKit</span>
+								</div>
+
+								<p class="description">
+									A responsive website that provides information about Ceedteck, its projects, and contact
+									information
+								</p>
+
+								<div class="links">
+									<a href="https://github.com/perezjoyce/ceedteck" target="_blank" class="text-secondary mr-4">
+										<i class="fa-brands fa-github-alt"></i>
+										GitHub
+									</a>
+
+									<a href="https://ceedteck.com" target="_blank" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- CPAR -->
+						<div class="project animate">
+							<img src="images/projects/cpar.png" class="project-img" alt="cpar student portal">
+
+							<div class="project-body">
+								<h2 class="title">CPAR Student Portal</h2>
+
+								<div class="badges mb-3">
+									<span class="badge rounded-pill text-bg-warning">Moodle</span>
+									<span class="badge rounded-pill text-bg-warning">JavaScript</span>
+									<span class="badge rounded-pill text-bg-warning">HTML</span>
+									<span class="badge rounded-pill text-bg-warning">CSS</span>
+								</div>
+
+								<p class="description">
+									A students portal for reviewees at the CPA Review School of the Philippines
+								</p>
+
+								<div class="links">
+									<a href="https://cpar.com.ph/login" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<!-- THEORIA INSITUTE -->
+						<div class="project animate">
+							<img src="images/projects/theoria-institute.png" class="project-img" alt="theoria institute">
+
+							<div class="project-body">
+								<h2 class="title">Theoria Institute</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">Project Management</span>
+								</div>
+
+								<p class="description">
+									A web app that allows Theoria to create and manage courses for its employees and partners
+								</p>
+
+								<div class="links">
+									<a href="https://theoriainstitute.com/login" target="_blank" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- CHATEASY -->
+						<div class="project animate">
+							<img src="images/projects/chateasy.png" class="project-img" alt="theoria chateasy">
+
+							<div class="project-body">
+								<h2 class="title">ChatEasy</h2>
+
+								<div class="badges mb-3">
+									<span class="badge rounded-pill text-bg-warning">Project Management</span>
+								</div>
+
+								<p class="description">
+									A web app that allows Theoria's providers and nurses from partner facilities to discuss
+									patient-related data
+								</p>
+
+								<div class="links">
+									<a href="https://theoriamedical.chateasy.com/login" target="_blank" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- PATIENT PORTAL -->
+						<div class="project animate">
+							<img src="images/projects/patient-portal.png" class="project-img" alt="charteasy patient portal">
+
+							<div class="project-body">
+								<h2 class="title">ChartEasy Patient Portal</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">Project Management</span>
+									<span class="badge rounded-pill text-bg-warning">Documentation</span>
+								</div>
+
+								<p class="description">
+									A web app that allows patients of Theoria partners to view, download, and transmit their
+									health records
+								</p>
+
+								<div class="links">
+									<a href="https://patient-portal.charteasy.com/#/login" target="_blank"
+										class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- THEORIA WEBSITE -->
+						<div class="project animate">
+							<img src="images/projects/theoria-website.png" class="project-img" alt="theoria website">
+
+							<div class="project-body">
+								<h2 class="title">Theoria Medical Website</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">Project Management</span>
+								</div>
+
+								<p class="description">
+									A responsive website that provides information about Theoria Medical — it's vision,
+									leadership, services, and products
+								</p>
+
+								<div class="links">
+									<a href="https://theoriamedical.com/" target="_blank" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- PRIMARY CARE WEBSITE -->
+						<div class="project animate mb-5">
+							<img src="images/projects/theoria-primary-care.png" class="project-img" alt="theoria primary care">
+
+							<div class="project-body">
+								<h2><strong>Theoria Primary Care Website</strong></h2>
+
+								<div class="badges mb-3">
+									<span class="badge rounded-pill text-bg-warning">Project Management</span>
+								</div>
+
+								<p class="description">
+									A responsive website that provides information about Theoria Medical's primary care program —
+									its team, services, accepted insurance providers, and resources. It supports booking of
+									face-to-face and remote appointment.
+								</p>
+
+								<div class="links">
+									<a href="https://www.theoriaprimarycare.com/" target="_blank" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- !TEMPLATE (NO IMAGE) -->
+						<!-- <div class="project project-body animate">
+							<h2 class="title">Ceedteck</h2>
+
+							<div class="badges mb-2">
+								<span class="badge rounded-pill text-bg-warning">Next.js</span>
+								<span class="badge rounded-pill text-bg-warning">UIKit</span>
+							</div>
+
+							<p class="description">
+								A responsive website that provides information about Ceedteck, its projects, and contact
+								information
+							</p>
+
+							<div class="links">
+								<a href="https://github.com/perezjoyce/ceedteck target="_blank" class="text-secondary mr-4">
+									<i class="fa-brands fa-github-alt"></i>
+									GitHub
+								</a>
+
+								<a href="https://ceedteck.com" target="_blank" class="text-secondary">
+									<i class="fa-solid fa-square-arrow-up-right"></i>
+									<i class="fa-brands fa-google-play"></i>
+									View Project
+								</a>
+							</div>
+						</div> -->
+
+						<!-- !TEMPLATE (WITH IMAGE) -->
+						<!-- <div class="project animate">
+							<img src="images/projects/ceedteck.png" class="project-img" alt="...">
+							<div class="project-body">
+								<h2 class="title">Ceedteck</h2>
+
+								<div class="badges mb-2">
+									<span class="badge rounded-pill text-bg-warning">Next.js</span>
+									<span class="badge rounded-pill text-bg-warning">UIKit</span>
+								</div>
+
+								<p class="description">
+									A responsive website that provides information about Ceedteck, its projects, and contact
+									information
+								</p>
+
+								<div class="links">
+									<a href="https://github.com/perezjoyce/ceedteck" target="_blank" class="text-secondary mr-4">
+										<i class="fa-brands fa-github-alt"></i>
+										GitHub
+									</a>
+
+									<a href="https://ceedteck.com" target="_blank" class="text-secondary">
+										<i class="fa-solid fa-square-arrow-up-right"></i>
+										<i class="fa-brands fa-google-play"></i>
+										View Project
+									</a>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- REVIEWS -->
+		<section class="section" id="reviews">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 heading-section text-center animate">
+						<h1 class="big big-2">Feedback</h1>
+						<h2 class="mb-4">Feedback</h2>
+						<p>
+							Explore candid feedback from former students, colleagues, and supervisors about their experience
+							working with me.
+						</p>
+					</div>
+				</div>
+
+				<div class="d-flex align-content-stretch flex-wrap">
+					<div class="review animate">
+						<img src="images/reviews/image_1.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_2.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_3.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_4.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_5.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_6.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_7.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_8.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_9.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_10.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_11.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+
+					<div class="review animate">
+						<img src="images/reviews/image_12.png" class="review-img rounded">
+						<div class="overlay"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CONTACT -->
+		<section class="section pb-0 bg-img" id="contact" style="background-image: url(images/backgrounds/image_8.jpg);">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-3">
+					<div class="col-md-7 heading-section text-center animate">
+						<h1 class="big big-2">Connect</h1>
+						<h2 class="mb-4">Let's Connect</h2>
+						<p class="text-white">
+							Let's start a conversation! Contact me via email, LinkedIn, or text to discuss
+							opportunities, projects, or just to connect.
+						</p>
+					</div>
+				</div>
+
+				<div class="row d-flex contact-info pb-5">
+					<div class="col-md-6 col-lg-3 d-flex animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-file fa-2xl text-warning"></i>
+							</div>
+							<p><a href="https://drive.google.com/file/d/1TRyQqpfNpfeL1RV2C9pRP6cBJcJ1xR95/view?usp=sharing"
+									targe="_blank">Resume</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-phone fa-2xl text-warning"></i>
+							</div>
+							<p><a href="tel://+639773453953">+63 977 345 3953</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-solid fa-2xl fa-paper-plane text-warning"></i>
+							</div>
+							<p><a href="mailto:japerez.ph@gmail.com">japerez.ph@gmail.com</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex animate">
+						<div class="align-self-stretch box p-4 text-center">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<i class="fa-brands fa-linkedin-in fa-2xl text-warning"></i>
+							</div>
+							<p><a href="https://www.linkedin.com/in/perezjoyce" targe="_blank">linkedin.com/in/perezjoyce</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer class="section d-flex no-gutters justify-content-center" id="footer">
+			<p>
+				Copyright &copy;
+				<script>document.write(new Date().getFullYear());</script> All rights reserved
+			</p>
+		</footer>
+
+		<!-- LOADER -->
+		<div id="custom-loader" class="show fullscreen">
+			<svg class="circular" width="48px" height="48px">
+				<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+				<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+					stroke="#F96D00" />
+			</svg>
+		</div>
+
+		<!-- SCRIPTS -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+
+</html>
